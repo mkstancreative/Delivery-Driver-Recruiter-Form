@@ -1,0 +1,22 @@
+@import "../styles/varibles";
+
+@mixin flexData($direction, $justify, $align){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+@mixin subMit {
+    padding: 10px;
+    outline: none;
+    font-size: 1rem;
+    background-color: #fda085;
+    border-style: none;
+    color: rgb(15, 15, 15);
+    width: 200px;
+    transition: all 0.3s ease;
+    align-self: center;
+    font-weight: bolder;
+    
+}

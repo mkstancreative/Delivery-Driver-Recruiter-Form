@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(120deg, #f6d365, #fda085);
+}
+
+.header {
+  text-align: center;
+  margin: 4rem  auto 1rem auto;
+  color: #111111;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.header p {
+  padding-top: 1.5rem;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 5rem;
+}
+
+.form {
+  background-color: #131212;
+  padding: 1rem;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.form div {
+  margin: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.form div label {
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.form div input {
+  padding: 15px;
+  outline: none;
+  width: 400px;
+  border-style: none;
+}
+
+.form div select {
+  padding: 1rem;
+  outline: none;
+  border-style: none;
+}
+
+.form div select option {
+  background-color: white;
+  color: black;
+  padding: 0.5rem;
+}
+
+.form .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.form .checkbox input {
+  padding: 20px;
+  width: 20px;
+  font-size: 1rem;
+}
+
+.form .checkbox a {
+  margin-left: 0.3rem;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #fda085;
+}
+
+.form .submit button {
+  padding: 10px;
+  outline: none;
+  font-size: 1rem;
+  background-color: #fda085;
+  border-style: none;
+  color: #0f0f0f;
+  width: 200px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  font-weight: bolder;
+}
+
+.form .submit button:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
